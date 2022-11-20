@@ -1,0 +1,8 @@
+C:\Users\Mohammad Alshraideh\source\repos\c-sharp-tasks\c-sharp-tasks\obj\Debug\c-sharp-tasks.csproj.AssemblyReference.cache
+C:\Users\Mohammad Alshraideh\source\repos\c-sharp-tasks\c-sharp-tasks\obj\Debug\c-sharp-tasks.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mohammad Alshraideh\source\repos\c-sharp-tasks\c-sharp-tasks\obj\Debug\c-sharp-tasks.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad Alshraideh\source\repos\c-sharp-tasks\c-sharp-tasks\bin\Debug\c-sharp-tasks.exe.config
+C:\Users\Mohammad Alshraideh\source\repos\c-sharp-tasks\c-sharp-tasks\bin\Debug\c-sharp-tasks.exe
+C:\Users\Mohammad Alshraideh\source\repos\c-sharp-tasks\c-sharp-tasks\bin\Debug\c-sharp-tasks.pdb
+C:\Users\Mohammad Alshraideh\source\repos\c-sharp-tasks\c-sharp-tasks\obj\Debug\c-sharp-tasks.exe
+C:\Users\Mohammad Alshraideh\source\repos\c-sharp-tasks\c-sharp-tasks\obj\Debug\c-sharp-tasks.pdb
