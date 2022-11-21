@@ -8,7 +8,7 @@ namespace c_sharp_tasks
 {
     internal class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             Console.WriteLine("task1----------------------------------------------------");
             //task1
@@ -38,17 +38,17 @@ namespace c_sharp_tasks
             Console.WriteLine(arr[1]);
             Console.WriteLine(arr[2]);
             Console.WriteLine(arr[3]);
-
+            Console.WriteLine(arr.Length);
 
 
             Console.WriteLine("task4---------------------------------------------------");
             //task4
             Console.Write("input your firstname:");
             string firstname = Console.ReadLine();
-            Console.Write("input your firstname:");
+            Console.Write("input your lastname:");
             string lastname = Console.ReadLine();
-            Console.Write("input your firstname:");
-            string year = Console.ReadLine();
+            Console.Write("input your date of birth:");
+            int year =Convert.ToInt32 (Console.ReadLine());
 
             Console.WriteLine($"{firstname} {lastname} {year}");
 
@@ -71,6 +71,7 @@ namespace c_sharp_tasks
             //task6
             int[] sumArr = { 2, 5, 8 };
             Console.WriteLine($"Sum of all elements stored in the array is : {sumArr[0] + sumArr[1] + sumArr[2]}");
+            Console.ReadLine();
         }
     }
 }

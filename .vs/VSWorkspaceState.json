@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\nov-20",
+    "\\nov-20\\c-sharp-tasks",
+    "\\nov-20\\c-sharp-tasks\\c-sharp-tasks"
   ],
-  "SelectedNode": "\\task1.cs",
+  "SelectedNode": "\\nov-20\\c-sharp-tasks\\c-sharp-tasks\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
