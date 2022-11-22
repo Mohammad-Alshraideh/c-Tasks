@@ -1,0 +1,8 @@
+C:\Users\Mohammad Alshraideh\c-Tasks\nov-22\task7\bin\Debug\task7.exe.config
+C:\Users\Mohammad Alshraideh\c-Tasks\nov-22\task7\bin\Debug\task7.exe
+C:\Users\Mohammad Alshraideh\c-Tasks\nov-22\task7\bin\Debug\task7.pdb
+C:\Users\Mohammad Alshraideh\c-Tasks\nov-22\task7\obj\Debug\task7.csproj.AssemblyReference.cache
+C:\Users\Mohammad Alshraideh\c-Tasks\nov-22\task7\obj\Debug\task7.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mohammad Alshraideh\c-Tasks\nov-22\task7\obj\Debug\task7.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad Alshraideh\c-Tasks\nov-22\task7\obj\Debug\task7.exe
+C:\Users\Mohammad Alshraideh\c-Tasks\nov-22\task7\obj\Debug\task7.pdb
