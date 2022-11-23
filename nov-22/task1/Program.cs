@@ -12,7 +12,7 @@ namespace task1
         {
             int[] ARR = { 1, 7, 9, 45 };
             string[] arr2 = { "Str", "alex", "moh" };
-            string[] arr3 = { 'the', 'fox', 'over', 'lazy', 'dog' };
+            string[] arr3 = { "the", "fox", "over", "lazy", "dog" };
 
         }
     }
