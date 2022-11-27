@@ -124,8 +124,8 @@ namespace nov_23
 
         static void Main(string[] args)
         {
-            Console.WriteLine(task6("12s3", "qqq"));
-           
+
+            
             
         }
     }
