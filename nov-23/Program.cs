@@ -38,27 +38,38 @@ namespace nov_23
         }
         static int task4( int ageInYears)
         {
-            int ageInDays = ageInYears * 12 * 30;
+            int ageInDays = ageInYears * 365;
             return ageInDays;
         }
         static int task5(int chicken , int cows , int pigs)
         {
             return (chicken * 2) + (cows * 4) + (pigs * 4);
         }
-        static string task6(string username , string password)
+        static string task6(string username, string password)
         {
-            string[] users = { "hello123" , "qqq564"};
+
+            string[][] users =
+{
+    new string[] { "123", "qqq" },
+    new string[] { "qqq", "123" },
+
+};
+
+            Console.WriteLine(users[0][0]);
             string res = "";
-            foreach (string user in users)
+            for (int i = 0; i < users.Length; i++)
             {
-                if (username+password == user)
-                {
-                    res= "pass";
+  
+                    if (username == users[i][0] && password == users[i][1])
+                    {
+                        res = "pass";
+                    break;
                 }
                 else
                 {
                     res = "fail";
                 }
+                
             }
 
             return res;
@@ -67,30 +78,26 @@ namespace nov_23
         {
             return Math.Pow(bas, pow);
         }
-        static int[] task8(int[] arr)
+        static void task8()
         {
-            int count = 0;
-            foreach (int year in arr)
+            Console.WriteLine("Enter a year");
+            int year = Convert.ToInt32(Console.ReadLine());
+            if (year >= 1900 && year <= 2024)
             {
-                if(year % 4 == 0 && year % 100 != 0 || year % 400 ==0){
-                    count++;
-                }
-            }
-            int[] arr1 = new int[count + 1];
-
-            for (int i = 0; i < arr1.Length; i++)
-            {
-                for (int j = 0; j < arr.Length; j++)
-
+                if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
                 {
-                    if (arr[j] % 4 == 0 && arr[j] % 100 != 0 || arr[j] % 400 == 0)
-                    {
-                        arr1[j] = arr[j];
-                    }
+                    Console.WriteLine($"{year} is a leap year");
                 }
+                else
+                {
+                    Console.WriteLine($"{year} is not a leap year");
+                }
+
             }
-         
-            return arr1;
+
+
+
+            
         }
         static bool task9( int x)
         {
@@ -117,7 +124,9 @@ namespace nov_23
 
         static void Main(string[] args)
         {
+            Console.WriteLine(task6("12s3", "qqq"));
            
+            
         }
     }
 }
