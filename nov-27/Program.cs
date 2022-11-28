@@ -13,7 +13,7 @@ namespace nov_27
 
         internal class Person
         {
-            private int age;
+            public int age;
             private string gender;
             public string name;
             private string email;
@@ -66,7 +66,7 @@ namespace nov_27
         static void Main(string[] args)
         {
             Person person= new Person( 18 , "male" , "mohammad" , "mavip@gmail.com" , 1 , "077456574");
-           Console.WriteLine(person.name);
+           Console.WriteLine(person.age);
 
         }
     }
