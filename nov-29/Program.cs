@@ -12,21 +12,24 @@ namespace nov_29
     {
         public class Employee
         {
-            public string name;
-           public int yearOfBirth;
-          public  int id;
+            public string name { get; }
+            public int yearOfBirth { get; }
+            public  int id { get; }
 
-           public Employee(string name, int yearOfBirth, int id) { 
+            public Employee(string name, int yearOfBirth, int id) { 
                 this.name = name;
                 this.yearOfBirth = yearOfBirth;
                 this.id = id;
             }
 
-
+           
 
             public int age(int yearOfBirth)
             {
-                return 2022 - yearOfBirth;
+                string currentYear = DateTime.Now.ToString("yyyy");
+                int year = Convert.ToInt32(currentYear);
+
+                return year - yearOfBirth;
             }
             public virtual void  greet (string name) {
                Console.WriteLine("hello" + " " + name);
@@ -52,6 +55,8 @@ namespace nov_29
         {
             Manager manager1 = new Manager("shraideh" , 1995 , 1);
             Console.WriteLine(manager1.name + " " + manager1.age(manager1.yearOfBirth) + " " + manager1.id) ;
+            manager1.greet(manager1.name) ;
+
         }
     }
 }
